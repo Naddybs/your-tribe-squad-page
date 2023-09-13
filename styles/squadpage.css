@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #701061;
+    background: radial-gradient(circle, rgba(112,16,97,0.7091254752851711) 0%, rgba(34,11,71,1) 63%);
+
+}
+
+
+.flex-container{
+    background-color: #410e6a8f;
+    display: flex;
+    margin-left: 22em;
+    flex-direction: row;
+}
+
+.flex-container > section {
+    background-color: aqua;
+    margin: 20px;
+    margin-left: 20px;
+    padding: 70px;
+    font-size: 30px;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+h1{
+color: blueviolet;
+font-size: 2.5em;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+font-size: 2.3em;
+font-family: 'itim' ,cursive; 
+color:rgb(148, 98, 233);
+text-align: right;
+top: 0;
+margin-top: -5.1em;
+text-shadow: 2px 2px 5px #a93a99e0;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 196px;
+  background-color: hsla(270, 20%, 2%, 0.443);
+  padding: 24px;
+  
+}
+
+#spotify{
+    position: relative;
+    width: 70px;
+    height:70px;
+    
+}
