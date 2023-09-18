@@ -1,0 +1,90 @@
+@media (min-width: 350px) {
+    .grid {
+        display: grid;
+        grid-column: 1;
+        place-items: center;
+        padding-top: 5em;
+    }
+}
+@media (min-width:650px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        padding-top: 5em;
+    }
+}
+
+@media (min-width: 1020px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+        padding-top: 5em;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #701061;
+    background: radial-gradient(circle, #ff9bf0b5 0%, hsl(335, 88%, 63%) 63%);
+
+}
+
+
+.grid{
+    background-color: hsla(321, 100%, 72%, 0.802);
+    display: grid;
+    margin-left: 18em;
+    place-items: center;
+    gap: 2rem;
+
+}
+
+.grid > article {
+    background-color: #d1ecec;
+    margin: 20px;
+    margin-left: 20px;
+    padding: 100px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+h1{
+color: #da0f5a;
+font-size: 2.5em;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+font-size: 2.3em;
+font-family: 'itim' ,cursive; 
+color:rgb(148, 98, 233);
+text-align: right;
+top: 0;
+margin-top: -5.1em;
+text-shadow: 2px 2px 5px #a93a99e0;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 196px;
+  background-color: hsla(270, 20%, 2%, 0.443);
+  padding: 24px;
+
+}
+
+#spotify{
+    position: relative;
+    width: 70px;
+    height:70px;
+
+}
