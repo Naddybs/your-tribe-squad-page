@@ -1,10 +1,23 @@
 body{
     font-family: 'poppins', sans-serif;
-    background: radial-gradient(at top left, hsl(271, 100%, 84%), hsl(223, 33%, 18%));
+    /* background: radial-gradient(at top left, hsl(271, 100%, 84%), hsl(223, 33%, 18%)); */
+    background-image: linear-gradient(
+  195deg,
+  hsl(240, 20%, 5%) 0%,
+  hsl(243deg 23% 16%) 24%,
+  hsl(248, 24%, 26%) 34%,
+  hsl(250deg 27% 36%) 44%,
+  hsl(253deg 29% 46%) 53%,
+  hsl(256deg 31% 56%) 64%,
+  hsl(259deg 32% 67%) 77%,
+  hsl(263deg 34% 77%) 100%
+);
     box-sizing: 0;
     border-radius: 0;
     width: 100%;
 }
+
+
 
 .front {
     display: flex;
@@ -17,7 +30,7 @@ body{
     bottom: 0; 
     width: 240px;
     height: 1000px;
-    background: linear-gradient(#fcccfc, rgb(50, 8, 94));
+    background: linear-gradient(hwb(300 79% 1%), hsla(269, 84%, 20%, 0.471));
     /* background-color: hwb(271 9% 64% / 0.659); */
     padding: 24px;
     display: grid;
@@ -56,9 +69,10 @@ h1 {
 
 
 
-}
+
 h2 {
     text-align: center;
+    
   }
 
 h1 {
@@ -101,17 +115,91 @@ p {
 
   .content-container {
     height: 300px;
-    background: hwb(270 89% 6% / 0.733);
+    background:url("../assets/Schermafbeelding\ 2023-09-20\ om\ 16.48.22.png");
+    background:url("../assets/Schermafbeelding\ 2023-09-21\ om\ 11.59.47.png");
+    background:url("../assets/tame-impala\ 2023-09-21\ om\ 12.08.25.png");
+    background:url("../assets/j-cole\ 2023-09-21\ om\ 12.12.28.png");
+    background:url("../assets/21-savage\ 2023-09-21\ om\ 12.29.44.png");
+    background:url("../assets/parasite2023-09-21\ om\ 12.43.15.png");
+    background:url("../assets/neckdeep\ 2023-09-21\ om\ 13.04.30.png");
+    background:url("../assets/KA-rs6\ 2023-09-21\ om\ 13.23.23.png");
+    background:url("../assets/Schermafbeelding\ 2023-09-21\ om\ 13.33.52.png");
+    background:url("../assets/HER\ 2023-09-21\ om\ 13.41.34.png");
+    background:url("../assets/code-fry2023-09-21\ om\ 14.06.21.png");
+    background-size: cover;
     line-height: 180px;
     text-align: center;
-    color: white;
+    color: rgb(218, 122, 122);
     font-size: 5vh;
-     box-shadow: 0 8px 10px 0 hsla(269, 90%, 15%, 0.965);
+     box-shadow: 0 8px 10px 0 #041011f6;
     border-radius: 50px;
     
   }
 
-  .content-container__img {
+  .container div:nth-of-type(4) .content-container {
+    background:url("../assets/Schermafbeelding\ 2023-09-18\ 173545.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container div:nth-of-type(1) .content-container {
+    background: url("../assets/Schermafbeelding\ 2023-09-21\ om\ 11.59.47.png");
+    background-size: cover;
+    
+  }
+
+  .container div:nth-of-type(2) .content-container {
+    background: url("../assets/tame-impala\ 2023-09-21\ om\ 12.08.25.png");
+    background-size: cover;
+}
+
+  .container div:nth-of-type(3) .content-container{
+    background: url("../assets/j-cole\ 2023-09-21\ om\ 12.12.28.png");
+    background-size: cover;
+
+
+}
+
+  .container div:nth-of-type(5) .content-container{
+    background: url("../assets/21-savage\ 2023-09-21\ om\ 12.29.44.png");
+    background-size: cover;
+
+  }
+
+  .container div:nth-of-type(4) .content-container{
+    background: url("../assets/parasite2023-09-21\ om\ 12.43.15.png");
+    background-size: cover;
+  }
+
+ .container div:nth-of-type(6)  .content-container{
+    background: url("../assets/neckdeep\ 2023-09-21\ om\ 13.04.30.png");
+    background-size: cover;
+ }
+
+.container div:nth-of-type(7)  .content-container{
+    background: url("../assets/KA-rs6\ 2023-09-21\ om\ 13.23.23.png");
+    background-size: cover;
+}
+
+.container div:nth-of-type(10)   .content-container{
+    background: url("../assets/Schermafbeelding\ 2023-09-21\ om\ 13.33.52.png");
+    background-size: cover;
+
+}
+
+.container div:nth-of-type(8)   .content-container{
+    background: url("../assets/HER\ 2023-09-21\ om\ 13.41.34.png");
+    background-size:cover;
+}
+
+.container div:nth-of-type(9)    .content-container{
+    background: url("../assets/code-fry2023-09-21\ om\ 14.06.21.png");
+    background-size: cover;
+
+}
+
+
+  /* .content-container__img {
     height: 80%;
   }
 
@@ -119,7 +207,7 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+  } */
 
   .content-container h2 {
     margin: 1rem 0 0 0;
